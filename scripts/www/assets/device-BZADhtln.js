@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{M as t}from"./vendor-antd-BUysf8HT.js";var n=e(t(),1);function r(){return window.innerWidth<=768}function i(){let[e,t]=(0,n.useState)(r);return(0,n.useEffect)(()=>{let e=()=>{t(r())};return window.addEventListener(`resize`,e),()=>window.removeEventListener(`resize`,e)},[]),{mobile:e}}export{i as t};
