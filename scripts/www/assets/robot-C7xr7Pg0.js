@@ -1,0 +1,1 @@
+import{t as e}from"./request-B9A7Vjjn.js";function t(t){return e.post(`/api/robot/navigation/start`,void 0,{params:{jobId:t}})}function n(){return e.post(`/api/robot/navigation/pause`)}function r(){return e.post(`/api/robot/navigation/resume`)}function i(){return e.post(`/api/robot/navigation/stop`)}export{i,r as n,t as r,n as t};
